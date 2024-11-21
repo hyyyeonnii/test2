@@ -1,0 +1,133 @@
+/* 공통 스타일 */
+body {
+  body {
+    font-family: 'Song Myung', serif;
+}
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(187, 253, 253);
+}
+
+/* Carousel 스타일 */
+.carousel-caption {
+  background: none;
+  padding: 0;
+  color: #fff;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* 버튼 커스텀 스타일 */
+.btn-custom {
+  background-color: rgba(0, 0, 0, 0.699);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(180, 180, 180, 0.7);
+}
+
+/* 카드 이미지 컨테이너 */
+.card-img-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  display: block;
+}
+
+.card-text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.card-img-container:hover .card-text-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 기본 버튼 스타일 */
+.btn-primary {
+  background-color: rgb(174, 174, 174);
+  border: none;
+}
+
+/* 카드 이미지 컨테이너 */
+.card-img-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 멤버십 카드 이미지 컨테이너 */
+.membership-card-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 멤버십 카드 이미지 스타일 */
+.membership-card-img {
+  width: 100%;
+  display: block;
+}
+
+/* 멤버십 텍스트 오버레이 */
+.membership-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.membership-card-container:hover .membership-card-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 멤버십 버튼 스타일 */
+.membership-btn-primary {
+  background-color: #000000;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
