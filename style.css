@@ -61,7 +61,7 @@ body {
   left: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 15px;
   opacity: 0;
@@ -131,19 +131,73 @@ body {
   border-radius: 5px;
 }
 
-#reviews {
-  background-color: #f8f9fa; 
-  padding: 40px 0;
-  border-top: 2px solid #ddd;
+#reviews-before-after {
+  text-align: center;
 }
 
-#reviews .card {
-  border: none;
+#reviews-before-after h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid #ddd;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#reviews .card img {
-  width: 80px;
-  height: 80px;
+.card-img-top {
+  height: 300px;
   object-fit: cover;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #a9a3a3;
+}
+
+#footer {
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+
+#footer p {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+#footer .brand-link,
+#footer .footer-link {
+    color: #ffdd57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer .brand-link:hover,
+#footer .footer-link:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+}
+
+#footer .tsc-info {
+    margin-top: 10px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #cccccc;
+}
+
+#footer .tsc-info p {
+    margin: 3px 0;
 }
