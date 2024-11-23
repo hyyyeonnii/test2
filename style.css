@@ -131,3 +131,19 @@ body {
   border-radius: 5px;
 }
 
+#reviews {
+  background-color: #f8f9fa; 
+  padding: 40px 0;
+  border-top: 2px solid #ddd;
+}
+
+#reviews .card {
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#reviews .card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
