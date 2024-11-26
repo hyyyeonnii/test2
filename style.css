@@ -1,8 +1,12 @@
 /* 공통 스타일 */
 body {
   body {
-    font-family: 'Noto Sans KR', sans-serif;
+    .gaegu-regular {
+  font-family: "Gaegu", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+    {
   background-color: #f8f9fa;
 }
 
